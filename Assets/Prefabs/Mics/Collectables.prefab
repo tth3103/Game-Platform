@@ -1,0 +1,1491 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8690526611182136558
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8690526611182136553}
+  m_Layer: 0
+  m_Name: Collectables
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8690526611182136553
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8690526611182136558}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -28.5, y: 5.400001, z: 10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8690526611344156701}
+  - {fileID: 2594679409798178613}
+  - {fileID: 2594679410303152383}
+  - {fileID: 2594679411406571993}
+  - {fileID: 2594679410718115732}
+  - {fileID: 2594679411513243625}
+  - {fileID: 2594679409708482550}
+  - {fileID: 2594679411651566070}
+  - {fileID: 2594679410036298823}
+  - {fileID: 2594679409940016908}
+  - {fileID: 2594679411027769963}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2852682470850365874
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8690526611182136553}
+    m_Modifications:
+    - target: {fileID: 2604915883088047765, guid: c45e69001f28dcb4ca5e49f36ecfcc18, type: 3}
+      propertyPath: m_Range
+      value: 2.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6848902456141311333, guid: c45e69001f28dcb4ca5e49f36ecfcc18, type: 3}
+      propertyPath: m_Name
+      value: SoftStar
+      objectReference: {fileID: 0}
+    - target: {fileID: 6848902456554447279, guid: c45e69001f28dcb4ca5e49f36ecfcc18, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6848902456554447279, guid: c45e69001f28dcb4ca5e49f36ecfcc18, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 123
+      objectReference: {fileID: 0}
+    - target: {fileID: 6848902456554447279, guid: c45e69001f28dcb4ca5e49f36ecfcc18, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.6999996
+      objectReference: {fileID: 0}
+    - target: {fileID: 6848902456554447279, guid: c45e69001f28dcb4ca5e49f36ecfcc18, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -187
+      objectReference: {fileID: 0}
+    - target: {fileID: 6848902456554447279, guid: c45e69001f28dcb4ca5e49f36ecfcc18, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6848902456554447279, guid: c45e69001f28dcb4ca5e49f36ecfcc18, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6848902456554447279, guid: c45e69001f28dcb4ca5e49f36ecfcc18, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6848902456554447279, guid: c45e69001f28dcb4ca5e49f36ecfcc18, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6848902456554447279, guid: c45e69001f28dcb4ca5e49f36ecfcc18, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6848902456554447279, guid: c45e69001f28dcb4ca5e49f36ecfcc18, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6848902456554447279, guid: c45e69001f28dcb4ca5e49f36ecfcc18, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c45e69001f28dcb4ca5e49f36ecfcc18, type: 3}
+--- !u!1 &8690526612944282839 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6848902456141311333, guid: c45e69001f28dcb4ca5e49f36ecfcc18, type: 3}
+  m_PrefabInstance: {fileID: 2852682470850365874}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8690526611344156701 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6848902456554447279, guid: c45e69001f28dcb4ca5e49f36ecfcc18, type: 3}
+  m_PrefabInstance: {fileID: 2852682470850365874}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &8690526612253893348
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8690526612944282839}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.75, y: 1.75, z: 1.75}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8690526612253893272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8690526612944282839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abf748c05b3edb44997682faf3b37b8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  levelMusic: {fileID: 0}
+  levelComplete: {fileID: 0}
+  levelTimer: {fileID: 0}
+  scoreBoard: {fileID: 0}
+  title: {fileID: 0}
+  timeTaken: {fileID: 0}
+  score: {fileID: 0}
+  star1: {fileID: 0}
+  star2: {fileID: 0}
+  star3: {fileID: 0}
+  fadeOut: {fileID: 0}
+--- !u!1001 &8690526611116247896
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8690526611182136553}
+    m_Modifications:
+    - target: {fileID: 2411548547301339080, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 41.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 2411548547301339080, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5699976
+      objectReference: {fileID: 0}
+    - target: {fileID: 2411548547301339080, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.2099991
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 65.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 22.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553473, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: ScoreBox
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553473, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553484, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_Name
+      value: Gems (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 62.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3548008130660834626, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_Name
+      value: Gems (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083760, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: ScoreBox
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083760, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: scoreBox
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083760, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083766, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_Name
+      value: Gems (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 51.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.699994
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -57.800003
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+--- !u!4 &2594679411406571993 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+  m_PrefabInstance: {fileID: 8690526611116247896}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8690526611222918504
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8690526611182136553}
+    m_Modifications:
+    - target: {fileID: 2411548547301339080, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 41.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 2411548547301339080, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5699976
+      objectReference: {fileID: 0}
+    - target: {fileID: 2411548547301339080, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.2099991
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 65.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 22.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553473, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: ScoreBox
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553473, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553484, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_Name
+      value: Gems (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 62.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3548008130660834626, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_Name
+      value: Gems (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083760, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: ScoreBox
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083760, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: scoreBox
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083760, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083766, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_Name
+      value: Gems (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 93.200005
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.6999931
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -107.8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+--- !u!4 &2594679411513243625 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+  m_PrefabInstance: {fileID: 8690526611222918504}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8690526611369597815
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8690526611182136553}
+    m_Modifications:
+    - target: {fileID: 2411548547301339080, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 41.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 2411548547301339080, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5699976
+      objectReference: {fileID: 0}
+    - target: {fileID: 2411548547301339080, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.2099991
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 65.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 22.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553473, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: ScoreBox
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553473, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553484, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_Name
+      value: Gems (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 62.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3548008130660834626, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_Name
+      value: Gems (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083760, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: ScoreBox
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083760, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: scoreBox
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083760, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083766, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_Name
+      value: Gems (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 129.20001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.6999907
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -108.8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+--- !u!4 &2594679411651566070 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+  m_PrefabInstance: {fileID: 8690526611369597815}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8690526611501401365
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8690526611182136553}
+    m_Modifications:
+    - target: {fileID: 2411548547301339080, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 41.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 2411548547301339080, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5699976
+      objectReference: {fileID: 0}
+    - target: {fileID: 2411548547301339080, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.2099991
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 51.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6899995
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.6600001
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553473, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: ScoreBox
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553473, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553484, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_Name
+      value: Gems (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 62.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3548008130660834626, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_Name
+      value: Gems (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083760, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: ScoreBox
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083760, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: scoreBox
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083760, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083766, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_Name
+      value: Gems (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 57.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.6999965
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -38.8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+--- !u!4 &2594679410718115732 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+  m_PrefabInstance: {fileID: 8690526611501401365}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8690526611811154154
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8690526611182136553}
+    m_Modifications:
+    - target: {fileID: 2411548547301339080, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 41.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 2411548547301339080, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5699976
+      objectReference: {fileID: 0}
+    - target: {fileID: 2411548547301339080, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.2099991
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 65.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 22.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553473, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: ScoreBox
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553473, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553484, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_Name
+      value: Gems (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 62.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3548008130660834626, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_Name
+      value: Gems (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083760, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: ScoreBox
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083760, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: scoreBox
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083760, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083766, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_Name
+      value: Gems (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 124.20001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.6999855
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -166.8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+--- !u!4 &2594679411027769963 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+  m_PrefabInstance: {fileID: 8690526611811154154}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8690526612168569470
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8690526611182136553}
+    m_Modifications:
+    - target: {fileID: 2411548547301339080, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 41.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 2411548547301339080, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5699976
+      objectReference: {fileID: 0}
+    - target: {fileID: 2411548547301339080, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.2099991
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 65.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 22.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553473, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: ScoreBox
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553473, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553484, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_Name
+      value: Gems (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 62.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3548008130660834626, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_Name
+      value: Gems (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083760, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: ScoreBox
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083760, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: scoreBox
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083760, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083766, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_Name
+      value: Gems (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 66.200005
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.6999912
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -105.8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+--- !u!4 &2594679410303152383 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+  m_PrefabInstance: {fileID: 8690526612168569470}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8690526612647640439
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8690526611182136553}
+    m_Modifications:
+    - target: {fileID: 2411548547301339080, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 41.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 2411548547301339080, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5699976
+      objectReference: {fileID: 0}
+    - target: {fileID: 2411548547301339080, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.2099991
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 65.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 22.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553473, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: ScoreBox
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553473, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553484, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_Name
+      value: Gems (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 62.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3548008130660834626, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_Name
+      value: Gems (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083760, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: ScoreBox
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083760, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: scoreBox
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083760, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083766, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_Name
+      value: Gems (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 39.200005
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.7000008
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -19.8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+--- !u!4 &2594679409708482550 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+  m_PrefabInstance: {fileID: 8690526612647640439}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8690526612737435060
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8690526611182136553}
+    m_Modifications:
+    - target: {fileID: 2411548547301339080, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 41.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 2411548547301339080, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5699976
+      objectReference: {fileID: 0}
+    - target: {fileID: 2411548547301339080, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.2099991
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 65.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 22.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553473, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: ScoreBox
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553473, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553484, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_Name
+      value: Gems (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 62.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3548008130660834626, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_Name
+      value: Gems (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083760, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: ScoreBox
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083760, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: scoreBox
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083760, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083766, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_Name
+      value: Gems (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 53.199997
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.69999
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -82.8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+--- !u!4 &2594679409798178613 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+  m_PrefabInstance: {fileID: 8690526612737435060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8690526612870917517
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8690526611182136553}
+    m_Modifications:
+    - target: {fileID: 2411548547301339080, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 41.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 2411548547301339080, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5699976
+      objectReference: {fileID: 0}
+    - target: {fileID: 2411548547301339080, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.2099991
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 65.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 22.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553473, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: ScoreBox
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553473, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553484, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_Name
+      value: Gems (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 62.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3548008130660834626, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_Name
+      value: Gems (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083760, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: ScoreBox
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083760, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: scoreBox
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083760, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083766, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_Name
+      value: Gems (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 124.20001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.6999874
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -142.8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+--- !u!4 &2594679409940016908 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+  m_PrefabInstance: {fileID: 8690526612870917517}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8690526612975425222
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8690526611182136553}
+    m_Modifications:
+    - target: {fileID: 2411548547301339080, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 41.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 2411548547301339080, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5699976
+      objectReference: {fileID: 0}
+    - target: {fileID: 2411548547301339080, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.2099991
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 65.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553472, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 22.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553473, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: ScoreBox
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553473, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709744571011553484, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_Name
+      value: Gems (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 62.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544534001453546066, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3548008130660834626, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_Name
+      value: Gems (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083760, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: ScoreBox
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083760, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: scoreBox
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083760, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316793009083766, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_Name
+      value: Gems (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 124.20001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.6999893
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -128.8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+--- !u!4 &2594679410036298823 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6672316794285408897, guid: 5e03fbf6fd4905a4c94dccdd083a8ae8, type: 3}
+  m_PrefabInstance: {fileID: 8690526612975425222}
+  m_PrefabAsset: {fileID: 0}
