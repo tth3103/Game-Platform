@@ -749,6 +749,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -1939,7 +1943,7 @@ ScriptsOnlyBuild:
     className: ActivationPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: e0bf86201c0ed156067f5740129b9d99
+      Hash: 06656b36a451ceea2e47b5965961af25
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SelectLevel

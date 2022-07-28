@@ -19,18 +19,21 @@ public class FinishLevel : MonoBehaviour
     public GameObject fadeOut;
 
     private int timeScore;
+    public static bool isFinished;
     [HideInInspector]
     private static int finalScore;
 
     private void Awake()
     {
         levelComplete.GetComponent<AudioSource>().enabled = false;
+        isFinished = false;
     }
     void OnTriggerEnter()
     {
         GameObject.Destroy(player);
         Cursor.lockState=CursorLockMode.None;
-
+        Cursor.visible = true;
+        isFinished=true;
         //Calculate time score
         timeScore = Timer.timeLeft * 1/2;
         timeTaken.GetComponentInChildren<Text>().text = "Time left: " + Timer.timeLeft + "";

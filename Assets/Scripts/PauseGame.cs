@@ -15,25 +15,27 @@ public class PauseGame : MonoBehaviour
     {
         if (Input.GetKeyDown("p"))
         {
-            if (!isPaused)
-            {
-                pauseSound.Play();
-                Time.timeScale = 0;
-                isPaused = true;
-                Cursor.visible = true;
-                Cursor.lockState = CursorLockMode.None;
-                levelAudio.Pause();
-                pauseMenu.SetActive(true);
-            }
-            else
-            {
-                levelAudio.UnPause();
-                Cursor.visible=false;
-                isPaused = false;
-                Cursor.lockState = CursorLockMode.Locked;
-                Time.timeScale = 1;
-                pauseMenu.SetActive(false);
-            }
+            if (FinishLevel.isFinished == false) {
+                if (!isPaused)
+                {
+                    pauseSound.Play();
+                    Time.timeScale = 0;
+                    isPaused = true;
+                    Cursor.visible = true;
+                    Cursor.lockState = CursorLockMode.None;
+                    levelAudio.Pause();
+                    pauseMenu.SetActive(true);
+                }
+                else
+                {
+                    levelAudio.UnPause();
+                    Cursor.visible = false;
+                    isPaused = false;
+                    Cursor.lockState = CursorLockMode.Locked;
+                    Time.timeScale = 1;
+                    pauseMenu.SetActive(false);
+                }
+            } else return;
         }
     }
     public void ResumeGame()
