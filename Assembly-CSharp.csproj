@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Assets\3D Lowpoly Village\Low poly package\Scripts\GameHandler.cs" />
     <Compile Include="Assets\Scripts\RotateSky.cs" />
+    <Compile Include="Assets\Scripts\Settings.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualTouchZone.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
@@ -79,9 +80,10 @@
     <Compile Include="Assets\Whale3D\Script\BaseMesh.cs" />
     <Compile Include="Assets\Scripts\Credits.cs" />
     <Compile Include="Assets\Scripts\PauseGame.cs" />
+    <Compile Include="Assets\Scripts\SelectLevel.cs" />
     <Compile Include="Assets\Scripts\TeleportWaypoint.cs" />
     <Compile Include="Assets\Scripts\LevelScripts\LevelRedirector.cs" />
-    <Compile Include="Assets\Scripts\SelectLevel.cs" />
+    <Compile Include="Assets\Scripts\GemCounter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AurynSky\Gems Ultimate Pack\READ ME.txt" />

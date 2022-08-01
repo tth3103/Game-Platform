@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4416859476441421587}
   - component: {fileID: 4416859476441421597}
   - component: {fileID: 4416859476441421598}
+  - component: {fileID: 8436014208202505759}
   m_Layer: 0
   m_Name: GlobalSystem
   m_TagString: Untagged
@@ -46,7 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeDisplay: {fileID: 0}
-  second: 80
+  second: 60
 --- !u!114 &4416859476441421597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60,7 +61,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreBox: {fileID: 0}
-  gemAmount: 10
+  gemAmount: 4
   internalScore: 0
 --- !u!114 &4416859476441421598
 MonoBehaviour:
@@ -75,3 +76,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelDisplay: {fileID: 0}
+--- !u!114 &8436014208202505759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4416859476441421586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2dc3c69bc36d114fb690e2716574bfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gemCounter: {fileID: 0}

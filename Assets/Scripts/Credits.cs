@@ -4,8 +4,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class Credits : MonoBehaviour
 {
+    public AudioSource bgm;
     private void Start()
     {
+        bgm.Play();
         StartCoroutine(RollCredit());   
     }
     public GameObject credit;

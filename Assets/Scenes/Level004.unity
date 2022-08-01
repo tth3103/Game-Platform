@@ -884,6 +884,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9bd6db9683d4724e935867697ebb81f, type: 3}
+--- !u!1 &2116905632 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 183804303166442860, guid: f9bd6db9683d4724e935867697ebb81f, type: 3}
+  m_PrefabInstance: {fileID: 2116905631}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2116905633 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2483331428671138099, guid: f9bd6db9683d4724e935867697ebb81f, type: 3}
@@ -1292,10 +1297,18 @@ PrefabInstance:
       propertyPath: scoreBox
       value: 
       objectReference: {fileID: 2116905633}
+    - target: {fileID: 4416859476441421597, guid: ed35025f08ed66a4fac91c194a469056, type: 3}
+      propertyPath: gemAmount
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4416859476441421598, guid: ed35025f08ed66a4fac91c194a469056, type: 3}
       propertyPath: levelDisplay
       value: 
       objectReference: {fileID: 647909117}
+    - target: {fileID: 8436014208202505759, guid: ed35025f08ed66a4fac91c194a469056, type: 3}
+      propertyPath: gemCounter
+      value: 
+      objectReference: {fileID: 2116905632}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed35025f08ed66a4fac91c194a469056, type: 3}
 --- !u!1001 &5335855923154478462

@@ -9,6 +9,7 @@ public class  Gems : MonoBehaviour
     private void OnTriggerEnter()
     {
         GlobalScore.currentScore += 50;
+        GemCounter.currentCounter += 1;
         collectSound.Play();
         Destroy(gameObject);
     }

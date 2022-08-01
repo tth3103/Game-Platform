@@ -7,7 +7,7 @@ public class GlobalScore : MonoBehaviour
     public GameObject scoreBox;
 
     public static int currentScore;
-
+    public static int currentGemInLevel;
     public int gemAmount;
     private int maxScore;
 
@@ -21,7 +21,7 @@ public class GlobalScore : MonoBehaviour
     private void Awake()
     {
         maxScore = gemAmount * 50;
-        
+        currentGemInLevel = gemAmount;
         firstCap = maxScore-50*9 + Timer.maxTime*1/4;
         secondCap = maxScore-50*5 + Timer.maxTime*1/2;
         thirdCap = maxScore-50*3 + Timer.maxTime-2/3;
