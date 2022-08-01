@@ -130,6 +130,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 448851303, guid: f9bd6db9683d4724e935867697ebb81f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 239404013}
+    - target: {fileID: 448851303, guid: f9bd6db9683d4724e935867697ebb81f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MainMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 747910739, guid: f9bd6db9683d4724e935867697ebb81f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 239404013}
+    - target: {fileID: 747910739, guid: f9bd6db9683d4724e935867697ebb81f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RestartLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2092160867, guid: f9bd6db9683d4724e935867697ebb81f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 239404013}
+    - target: {fileID: 2092160867, guid: f9bd6db9683d4724e935867697ebb81f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ResumeGame
+      objectReference: {fileID: 0}
     - target: {fileID: 2483331427048560227, guid: f9bd6db9683d4724e935867697ebb81f, type: 3}
       propertyPath: m_Name
       value: Canvas
