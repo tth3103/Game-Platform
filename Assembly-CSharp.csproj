@@ -62,6 +62,7 @@
     <Compile Include="Assets\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
     <Compile Include="Assets\Scripts\MainMenuControl.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
+    <Compile Include="Assets\Scripts\GemCounter.cs" />
     <Compile Include="Assets\AurynSky\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
     <Compile Include="Assets\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs" />
     <Compile Include="Assets\Scripts\GlobalScore.cs" />
@@ -83,7 +84,7 @@
     <Compile Include="Assets\Scripts\SelectLevel.cs" />
     <Compile Include="Assets\Scripts\TeleportWaypoint.cs" />
     <Compile Include="Assets\Scripts\LevelScripts\LevelRedirector.cs" />
-    <Compile Include="Assets\Scripts\GemCounter.cs" />
+    <Compile Include="Assets\Scripts\DebuffItems.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AurynSky\Gems Ultimate Pack\READ ME.txt" />

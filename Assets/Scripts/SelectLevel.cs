@@ -51,6 +51,13 @@ public class SelectLevel : MonoBehaviour
     }
     public void loadLevel_6()
     {
+        SceneManager.LoadScene("Level006");
+        bgm.Stop();
+        clickSound.Play();
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+    public void loadLevel_7()
+    {
         bgm.Pause();
         clickSound.Play();
         notificationBoard.SetActive(true);
