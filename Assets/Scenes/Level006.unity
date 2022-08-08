@@ -4914,6 +4914,7 @@ MonoBehaviour:
   star2: {fileID: 684626713}
   star3: {fileID: 431116793}
   fadeOut: {fileID: 2123471182}
+  nextSceneLoad: 0
 --- !u!4 &5717114454951354339
 Transform:
   m_ObjectHideFlags: 0
@@ -4982,6 +4983,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1718318992, guid: 15f23569e00bbd040a894b6b81f7ee33, type: 3}
+      propertyPath: ShapeModule.angle
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718318992, guid: 15f23569e00bbd040a894b6b81f7ee33, type: 3}
+      propertyPath: moveWithTransform
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718318992, guid: 15f23569e00bbd040a894b6b81f7ee33, type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718318992, guid: 15f23569e00bbd040a894b6b81f7ee33, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718318992, guid: 15f23569e00bbd040a894b6b81f7ee33, type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718318992, guid: 15f23569e00bbd040a894b6b81f7ee33, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6076985587753459069, guid: 15f23569e00bbd040a894b6b81f7ee33, type: 3}
       propertyPath: m_RootOrder
       value: 3

@@ -1336,7 +1336,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 9ea75952108458e4f8ac727247162225, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 1
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
@@ -2264,7 +2264,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1824949744}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.98, y: 1.43, z: -0.05}
+  m_LocalPosition: {x: -1.98, y: 1.13, z: -0.05}
   m_LocalScale: {x: 4, y: 1, z: 4}
   m_Children: []
   m_Father: {fileID: 933208773}
@@ -2314,6 +2314,7 @@ MonoBehaviour:
   star2: {fileID: 127285090}
   star3: {fileID: 127285089}
   fadeOut: {fileID: 127285086}
+  nextSceneLoad: 0
 --- !u!65 &1835448641
 BoxCollider:
   m_ObjectHideFlags: 0

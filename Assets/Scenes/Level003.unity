@@ -1441,7 +1441,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 9ea75952108458e4f8ac727247162225, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 1
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
@@ -1658,7 +1658,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 2bdd039ecd425fb49baaf8e35904a7c1, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 1
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
@@ -2312,7 +2312,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 11adcbfed8191574db6a87355f596de4, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 1
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
@@ -2598,6 +2598,7 @@ MonoBehaviour:
   star2: {fileID: 2116905640}
   star3: {fileID: 2116905639}
   fadeOut: {fileID: 2116905638}
+  nextSceneLoad: 0
 --- !u!65 &1835448641
 BoxCollider:
   m_ObjectHideFlags: 0

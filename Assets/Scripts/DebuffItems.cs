@@ -9,10 +9,21 @@ public class DebuffItems : MonoBehaviour
     private const float playerMoveSpeed = 10f;
     private float currentMoveSpeed;
     public float timer;
+    private bool alreadyTriggered;
+
+    private void Awake()
+    {
+        alreadyTriggered = false;
+    }
 
     private void OnTriggerEnter()
     {
-        StartCoroutine(SlowEffect());
+        if (!alreadyTriggered)
+        {
+            StartCoroutine(SlowEffect());
+            alreadyTriggered = true;
+        }
+        else return;
     }
     private IEnumerator SlowEffect()
     {

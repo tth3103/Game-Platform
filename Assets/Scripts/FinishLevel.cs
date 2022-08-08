@@ -18,11 +18,16 @@ public class FinishLevel : MonoBehaviour
     public GameObject star3;
     public GameObject fadeOut;
 
+    public int nextSceneLoad;
     private int timeScore;
     public static bool isFinished;
     [HideInInspector]
     private static int finalScore;
 
+    private void Start()
+    {
+        nextSceneLoad= SceneManager.GetActiveScene().buildIndex + 1;
+    }
     private void Awake()
     {
         levelComplete.GetComponent<AudioSource>().enabled = false;
@@ -81,7 +86,11 @@ public class FinishLevel : MonoBehaviour
     }
     public void PlayNextLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(nextSceneLoad);
+        if (nextSceneLoad > PlayerPrefs.GetInt("PlayerAt"))
+        {
+            PlayerPrefs.SetInt("PlayerAt", nextSceneLoad);
+        } 
         Cursor.lockState = CursorLockMode.Locked;
     }
     public void ReturnToMenu()
