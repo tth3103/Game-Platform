@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{AD69C38F-8526-B3C5-3938-D9429DCAC4F1}</ProjectGuid>
+    <ProjectGuid>{B27AB921-3860-57C5-7FBF-203C7095802C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -70,6 +70,7 @@
     <Compile Include="Assets\Whale3D\Script\PlayANim.cs" />
     <Compile Include="Assets\Scripts\GlobalLevel.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
+    <Compile Include="Assets\Scripts\DebuffItems.cs" />
     <Compile Include="Assets\Scripts\DeathControl.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
     <Compile Include="Assets\Scripts\RedirectToLevel.cs" />
@@ -84,7 +85,8 @@
     <Compile Include="Assets\Scripts\SelectLevel.cs" />
     <Compile Include="Assets\Scripts\TeleportWaypoint.cs" />
     <Compile Include="Assets\Scripts\LevelScripts\LevelRedirector.cs" />
-    <Compile Include="Assets\Scripts\DebuffItems.cs" />
+    <Compile Include="Assets\Scripts\Bloater.cs" />
+    <Compile Include="Assets\Scripts\BouncingPlatform.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AurynSky\Gems Ultimate Pack\READ ME.txt" />

@@ -824,7 +824,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &736338391
 GameObject:
@@ -2141,8 +2141,70 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2144625180
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2861088887708718391, guid: 12d52f5621d4cc9438dd73aef4d87c97, type: 3}
+      propertyPath: m_Name
+      value: Level Barrier
+      objectReference: {fileID: 0}
+    - target: {fileID: 2861088887708718408, guid: 12d52f5621d4cc9438dd73aef4d87c97, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2861088887708718408, guid: 12d52f5621d4cc9438dd73aef4d87c97, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 31.61901
+      objectReference: {fileID: 0}
+    - target: {fileID: 2861088887708718408, guid: 12d52f5621d4cc9438dd73aef4d87c97, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 2861088887708718408, guid: 12d52f5621d4cc9438dd73aef4d87c97, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2861088887708718408, guid: 12d52f5621d4cc9438dd73aef4d87c97, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2861088887708718408, guid: 12d52f5621d4cc9438dd73aef4d87c97, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2861088887708718408, guid: 12d52f5621d4cc9438dd73aef4d87c97, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2861088887708718408, guid: 12d52f5621d4cc9438dd73aef4d87c97, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2861088887708718408, guid: 12d52f5621d4cc9438dd73aef4d87c97, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2861088887708718408, guid: 12d52f5621d4cc9438dd73aef4d87c97, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2861088887708718408, guid: 12d52f5621d4cc9438dd73aef4d87c97, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 12d52f5621d4cc9438dd73aef4d87c97, type: 3}
+--- !u!1 &2144625181 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2861088887708718391, guid: 12d52f5621d4cc9438dd73aef4d87c97, type: 3}
+  m_PrefabInstance: {fileID: 2144625180}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1427519635269217800
 Transform:
   m_ObjectHideFlags: 0
@@ -3179,6 +3241,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 647909117}
     - target: {fileID: 8436014208202505759, guid: ed35025f08ed66a4fac91c194a469056, type: 3}
+      propertyPath: barrier
+      value: 
+      objectReference: {fileID: 2144625181}
+    - target: {fileID: 8436014208202505759, guid: ed35025f08ed66a4fac91c194a469056, type: 3}
       propertyPath: gemCounter
       value: 
       objectReference: {fileID: 2116905632}
@@ -3568,6 +3634,7 @@ MonoBehaviour:
   star2: {fileID: 684626713}
   star3: {fileID: 431116793}
   fadeOut: {fileID: 2123471182}
+  nextSceneLoad: 0
 --- !u!4 &5717114454951354339
 Transform:
   m_ObjectHideFlags: 0
@@ -3621,7 +3688,7 @@ Transform:
   - {fileID: 311281060}
   - {fileID: 1427334477}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &7084734250351698089
 PrefabInstance:

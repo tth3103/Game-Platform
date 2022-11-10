@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class GemCounter : MonoBehaviour
 {
     public GameObject gemCounter;
+    public GameObject barrier;
 
     private int internalCounter;
 
@@ -20,5 +21,14 @@ public class GemCounter : MonoBehaviour
     {
         internalCounter = currentCounter;
         gemCounter.GetComponentInChildren<Text>().text = "collected: "+internalCounter+"/"+maxAmount;
+        if (internalCounter == maxAmount)
+        {
+            StartCoroutine(TurnOffBarrier());
+        }
+    }
+    IEnumerator TurnOffBarrier()
+    {
+        barrier.SetActive(false);
+        yield return null;
     }
 }
